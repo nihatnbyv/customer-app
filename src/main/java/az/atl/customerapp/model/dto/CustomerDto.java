@@ -1,6 +1,7 @@
 package az.atl.customerapp.model.dto;
 
 
+import az.atl.customerapp.dao.entity.Role;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -16,5 +17,5 @@ public class CustomerDto {
     String lastName;
     String email;
     String country;
-
+    Role role;
 }
